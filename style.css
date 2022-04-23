@@ -1,0 +1,24 @@
+#canvas {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+.black {
+  background-color: darkgray;
+}
+
+.white {
+  background-color: whitesmoke;
+}
